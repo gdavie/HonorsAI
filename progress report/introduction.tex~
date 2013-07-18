@@ -1,0 +1,30 @@
+\chapter{Introduction}\label{C:intro}
+
+Earthquakes are known to cause severe damage to human life and infrastructure. A significant portion of the problems associated with an earthquake event are due to ground instability. A developed site can have poor ground stability for a number of reasons. The one this body of work is addressing is liquefaction. Liquefaction occurs when sediments, silts and sands below the water table lose their structural strength during an earthquake. The sediments float within the compressed water causing the strength of the stratigraphic layer to fail. At which point it can no longer support the layers above it causing them to sink \cite{1}, \cite{2}.
+\\\\
+Techniques to determine the probability that a site will liquefy during an earthquake event have been around for a while. Most of these involve the study of core samples. These are destructive to the site, expensive and time consuming to obtain. However a technique called SPAC was developed to measure surface micro-tremors which significantly reduces the problems associated with the recovery of core samples \cite{2}, \cite{3}, \cite{5}, \cite{6}, \cite{7}. This process is still fairly labor intensive, though it can be done off-site, as it currently uses the simplex algorithm which requires a lot of human operator intervention. The simplex algorithm is used during the modeling of the data as part of an iterative process with the goal of finding the best fitness \cite{2}, \cite{7}. 
+\\ \\
+This project is building upon Aaron Scoble's work he submitted last year in completion of his summer project and honors research. His work examines the use of AI, specifically Parallel Linear Genetic Programming (PLGP) to solve the current human problems associated with the simplex algorithm \cite{scoble1}. Essentially the current simplex algorithm is very labor intensive and prone to human bias and assumption. Developing a processes that would provide accurate reliable results with a reduction in human processing time would be a beneficial tool to the geotechnic industry. The benefits an AI system could achieve include:
+ 
+ \begin{itemize}
+ \item • A reduction in the cost of site evaluations by lessening a geotechnic engineer’s (geotech’s) billable hours.
+ \item • A reduction in the time to analyse the data, resulting in faster evaluations.
+ \item • A more transparent result that is devoid of human bias, allowing greater client confidence.
+ \end{itemize}
+
+There are also several academic contributions that an AI solution could achieve, these include:
+
+ \begin{itemize}
+ \item • Improved regression analysis within hard and soft constraints.
+ \item • An AI solution to an industry problem reinforcing the benefit of further AI research.
+ \end{itemize}
+
+Aaron's work investigates the use of parallel linear genetic programing (PLGP) to achieve these goals. This project uses his algorithm as a benchmark with which to test several other AI techniques in an effort to determine which are better suited to this particular regression problem. The outcome of this paper is not to have a polished industry ready solution but rather to have determined which direction would be most profitable for further research. 
+\\\\
+The success of each implementation will be measured as follows:
+
+
+ \begin{itemize}
+ \item Run speed of the implementations.
+ \item Performance in the detection of potential liquefaction risks.
+ \end{itemize}

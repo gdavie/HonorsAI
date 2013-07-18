@@ -1,0 +1,124 @@
+setwd("~/workspace/Fitness/")
+
+##########################SITE01 -- example ###########################
+jpeg(filename="site01_ex.jpg")
+theo <- read.csv("site01_20m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+
+bill <-read.csv("plot.1BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+legend("topright", legend=c("Measured", "Theoretical"), 
+col=c('red','blue'), lty=c(1,1),lwd=c(2,2))
+dev.off()
+
+
+##########################SITE01 -- layercmp ###########################
+jpeg(filename="site01_cmp.jpg")
+theo <- read.csv("site01_20m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+bill <-read.csv("plot.1BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+spac <-read.csv("plot.1_layer_cmp.txt",header=T,sep=",")
+attach(spac)
+lines(Freq, Coherency, type="l",col=1, lwd=3, lty=3) #GREEN
+legend("topright", legend=c("Measured", "Single layer", "Two layers"), 
+col=c('red','black','blue'), lty=c(1,3,1),lwd=c(2,2,3))
+dev.off()
+
+##########################SITE01###########################
+jpeg(filename="site01.jpg")
+theo <- read.csv("site01_20m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+bill <-read.csv("plot.1BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+spac <-read.csv("plot.1.txt",header=T,sep=",")
+attach(spac)
+lines(Freq, Coherency, type="l",col=1, lwd=3, lty=3) #GREEN
+legend("topright", legend=c("Measured", "Human", "ESPAC"), 
+col=c('red','blue','black'), lty=c(1,1,3),lwd=c(2,2,3))
+dev.off()
+
+##########################SITE02###########################
+jpeg(filename="site02.jpg")
+theo <- read.csv("site02_20m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+bill <-read.csv("plot.2BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+spac <-read.csv("plot.2.txt",header=T,sep=",")
+attach(spac)
+lines(Freq, Coherency, type="l",col=1, lwd=3, lty=3) #GREEN
+legend("topright", legend=c("Measured", "Human", "ESPAC"), 
+col=c('red','blue','black'), lty=c(1,1,3),lwd=c(2,2,3))
+dev.off()
+
+##########################SITE03###########################
+jpeg(filename="site03.jpg")
+theo <- read.csv("site03_15m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+bill <-read.csv("plot.3BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+spac <-read.csv("plot.3.txt",header=T,sep=",")
+attach(spac)
+lines(Freq, Coherency, type="l",col=1, lwd=3, lty=3) #GREEN
+legend("topright", legend=c("Measured", "Human", "ESPAC"), 
+col=c('red','blue','black'), lty=c(1,1,3),lwd=c(2,2,3))
+dev.off()
+
+##########################SITE04###########################
+jpeg(filename="site04.jpg")
+theo <- read.csv("site04_20m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+bill <-read.csv("plot.4BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+spac <-read.csv("plot.4.txt",header=T,sep=",")
+attach(spac)
+lines(Freq, Coherency, type="l",col=1, lwd=3, lty=3) #GREEN
+legend("topright", legend=c("Measured", "Human", "ESPAC"), 
+col=c('red','blue','black'), lty=c(1,1,3),lwd=c(2,2,3))
+dev.off()
+
+##########################SITE04b###########################
+jpeg(filename="site04b.jpg")
+theo <- read.csv("site04_20m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+bill <-read.csv("plot.4BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+spac <-read.csv("plot.4b.txt",header=T,sep=",")
+attach(spac)
+lines(Freq, Coherency, type="l",col=1, lwd=3, lty=3) #GREEN
+legend("topright", legend=c("Measured", "Human", "ESPAC"), 
+col=c('red','blue','black'), lty=c(1,1,3),lwd=c(2,2,3))
+dev.off()
+
+##########################SITE05###########################
+jpeg(filename="site05.jpg")
+theo <- read.csv("site05_20m.dat",header=T,sep=",")
+attach(theo)
+plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=2,lwd=0.5)
+bill <-read.csv("plot.5BILL.txt",header=T,sep=",")
+attach(bill)
+lines(Freq, Coherency, type="l",col=4, lwd=2, lty=1) #BLUE
+spac <-read.csv("plot.5.txt",header=T,sep=",")
+attach(spac)
+lines(Freq, Coherency, type="l",col=1, lwd=3, lty=3) #GREEN
+legend("topright", legend=c("Measured", "Human", "ESPAC"), 
+col=c('red','blue','black'), lty=c(1,1,3),lwd=c(2,2,3))
+dev.off()
+
+#========================================================
+
+

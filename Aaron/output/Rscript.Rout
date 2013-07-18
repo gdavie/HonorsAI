@@ -1,0 +1,91 @@
+
+R version 2.15.1 (2012-06-22) -- "Roasted Marshmallows"
+Copyright (C) 2012 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #R is pretty cool for plotting, when googling it search for 'cran' or 'r-cran'
+> #I would seriously recommend learning some more plotting commands, as they will
+> #be necessary for your report.
+> #Depending on what you use to write your report (I used latex), the image format
+> #makes a difference. If you can use .eps that will give the best results but it's 
+> #not always an option.
+> 
+> #This script takes in 3 data files and plots them against each other.
+> #the first is the coherency measured from the site (The target)
+> #The second (in this case) is the calculated coherency from GNS
+> #the third (in this case) is the output from ESPAC.
+> 
+> 
+> #this is the directory where yout output files are located.
+> #setwd("~/4year/489/output/")
+> 
+> ##########################SITE01###########################
+> #comment out the following line if you want the plot to screen.
+> #also the dev.off() line
+> jpeg(filename = "gatestimage.jpg")
+> #one of the data files for comparison.
+> #it should be the same format as those provided, i.e. same header row 
+> #followed by two comma separated columns
+> #I think header=T is boolean, and the header will label the columns.
+> #sep is the columm seperator in the data (ie we have used CSV)
+> theo <- read.csv("plot.2.txt",header=T,sep=",")
+> #this call 'attaches' the data we just read in for the 'plot' command
+> attach(theo)
+> #plot the data.
+> #type is type of plot (l=line) (i think)
+> #xlim limits the plot to under 20 khz
+> #col is colour (there are 9)
+> #lwd is line width
+> #lty is line type (solid, dot, dash, etc, I think there are 9 also).
+> #		It is useful to consider the plots in black and white, line type is useful there
+> plot(Freq, Coherency, type="l", xlab="Frequency(Hz)", xlim = c(0,20), col=1,lwd=1)
+> bill <-read.csv("plot.2BILL.txt",header=T,sep=",")
+> attach(bill)
+The following object(s) are masked from 'theo':
+
+    Coherency, Freq
+> lines(Freq, Coherency, type="l",col=2, lwd=3, lty=1) #RED
+> spac <-read.csv("plot.test.txt",header=T,sep=",")
+> attach(spac)
+The following object(s) are masked from 'bill':
+
+    Coherency, Freq
+The following object(s) are masked from 'theo':
+
+    Coherency, Freq
+> lines(Freq, Coherency, type="l",col=3, lwd=3, lty=6) #GREEN
+> #comment out the following line if you want the plot to screen.
+> #also the jpeg() line
+> dev.off()
+null device 
+          1 
+> 
+> #colours
+> #lines(Freq, Coherency, type="l",col=3, lwd=3) #GREEN
+> #lines(Freq, Coherency, type="l",col=4, lwd=3) #blue
+> #lines(Freq, Coherency, type="l",col=5, lwd=3)	#aqua
+> #lines(Freq, Coherency, type="l",col=6, lwd=3)	#purple
+> #lines(Freq, Coherency, type="l",col=7, lwd=3)	#yellow
+> #lines(Freq, Coherency, type="l",col=8, lwd=3)	#grey
+> #lines(Freq, Coherency, type="l",col=9, lwd=3)	#dark grey (black?)
+> 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  0.239   0.026   0.793 

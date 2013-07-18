@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{scoble1}
+B.~W. Scoble, Aaron and M.~Zhang, ``{Evolutionary Spatial Auto-Correlation for
+  Assessing Earthquake Liquefaction Potential using Parallel Linear Genetic
+  Programming},'' 2013.
+\newblock Victoria University Wellington.
+
+\bibitem{zhang1}
+C.~Downey and M.~Zhang, ``{Parallel Linear Genetic Programming},'' 2011.
+\newblock Victoria University Wellington.
+
+\bibitem{andrus1}
+R.~D. Andrus and K.~H.~I. Stockoe, ``{Liquefaction resistance of soils from
+  shear-wave velocity},'' 2000.
+\newblock Geotechnical and Geoenvironmental Engineering.
+
+\bibitem{poli1}
+W.~B.~L. R.~Poli and N.~F. McPhee, {\em A Field Guide to Genetic Programming}.
+\newblock 2008.
+\newblock ISBN 978-1-4092-0073-4.
+
+\bibitem{harik1}
+F.~G.~L. G.~R.~Harik and D.~E. Goldberg, ``{The compact genetic algorithm},''
+  1999.
+\newblock IEEE Transactions on Evolutionary Computation.
+
+\bibitem{hansen1}
+N.~Hansen and S.~Kern, ``{Evaluating the CMA Evolution Strategy on Multimodal
+  Test Functions},'' 2004.
+\newblock Swiss Federal Institute of Technology (ETH) Zurich, Switzerland.
+
+\bibitem{hansen2}
+N.~Hansen, ``{The CMA Evolution Strategy: A Comparing Review},'' 2006.
+\newblock Swiss Federal Institute of Technology (ETH) Zurich, Switzerland.
+
+\bibitem{lanzi1}
+P.~Lanzi and R.~Riolo, {\em {A Roadmap to the Last Decade of Learning
+  Classifier System Research (From 1989 to 1999)}}.
+\newblock {Lecture Notes in Computer Science}, 2000.
+\newblock ISBN 978-3-540-67729-1.
+
+\bibitem{ird1}
+{{Inland Revenue}}, ``{Claiming business expenses - Mileage rate},''
+  http://www.ird.govt.nz/business-income-tax/expenses/mileage-rates/.
+\newblock Accessed on 26 March 2013.
+
+\end{thebibliography}

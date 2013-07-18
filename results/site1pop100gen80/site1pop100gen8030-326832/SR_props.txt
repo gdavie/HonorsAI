@@ -1,0 +1,52 @@
+//tstcomment
+#path=/am/rialto/home1/daviegeor/4year/489/Aaron/sr-plgp/
+path=/vol/grid-solar/sgeusers/daviegeor/
+populationSize=100
+maxGenerations=80
+//frequency and coherency is all we need for now
+features=2
+//AI-SPAC parameters
+
+//-----GP operator values
+//plus or minus up to 100m
+addSubRangeH = 0.1
+plus or minus up to 500m/s
+addSubRangeVS = 0.5
+
+//Multiply or divide by up to 1.5
+divMultRangeH =0.5
+divMultRangeVS =0.5
+
+//------Random ranges for models
+//up to 10m thick
+randomThicknessRange=0.01
+//up to 500 m/s
+randomVelocityRange=0.5
+
+
+
+//Will drop data files into cwd rather than writing them back to runpath
+cwd=true
+
+log=false
+printBest=false
+debug=false
+
+#c.bpProportionElitism = 0.3;
+#c.bpTournamentSize = 5;
+#c.populationSize = 1000;
+#c.proportionElitism = 0.1;
+#c.best_n = 1000;
+#blueprints=500
+#proportion=0.1
+#path=/vol/grid-solar/sgeusers/scobleaaro/Project/
+#populationSize=1000
+#numCache=0
+#multiclass ie LGP
+#CACHE=false;
+#Parallel multiclass ie PLGP
+#REG_CACHE=false;
+#regLog=true
+#printbest=false;
+#maxGenerations=400
+##########

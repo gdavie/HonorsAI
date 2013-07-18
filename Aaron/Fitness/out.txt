@@ -1,0 +1,17 @@
+results /media/sf_Working_share/git/sr-plgp/dataIn/
+log /media/sf_Working_share/git/sr-plgp/dataIn
+ Debug? false | Log? false | printBest? false
+Pop: 1 | Max Gens: 1
+Path: /media/sf_Working_share/git/sr-plgp/dataIn/
+randomThicknessRange :0.01 randomVelocityRange :0.5
+AddSubRange H :0.1 VS :0.5
+divMultRange H :0.5 VS :0.5
+Threshold ? false : 5
+aperture distance : 20
+4089
+Loaded 4090 Frequency points. Beginning evolution.
+RUN: 0
+SEED RANDOM 1.362457006E9
+evolution time: 0.013
+Model 0 ====================
+SDISP :: 
