@@ -12,6 +12,7 @@
 	<classpathentry kind="src" path="Coh"/>
 	<classpathentry kind="src" path="misc"/>
 	<classpathentry kind="src" path="GA_SPAC"/>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="lib" path="/am/rialto/home1/daviegeor/4year/489/Aaron/sr-plgp/lib/ujmp-complete-0.2.5.jar"/>
 	<classpathentry exported="true" kind="lib" path="/am/rialto/home1/daviegeor/4year/489/Aaron/sr-plgp/lib/colt-1.2.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="/am/rialto/home1/daviegeor/4year/489/Aaron/sr-plgp/lib/Jcpsjar.jar"/>
