@@ -1,0 +1,43 @@
+//tstcomment
+
+path=/media/sf_Working_share/git/sr-plgp/dataIn/
+populationSize=1000
+maxGenerations=5
+blueprints=40
+random=0
+//Will drop data files into cwd rather than writing them back to runpath
+cwd=true
+
+best_n = 500
+
+proportion=1
+numCache=0
+//multiclass ie LGP
+CACHE=false
+//Parallel multiclass ie PLGP
+REG_CACHE=false
+regLog=false
+log=false
+printBest=false
+debug=false
+
+arrcache=true
+
+#c.bpProportionElitism = 0.3;
+#c.bpTournamentSize = 5;
+#c.populationSize = 1000;
+#c.proportionElitism = 0.1;
+#c.best_n = 1000;
+#blueprints=500
+#proportion=0.1
+#path=/vol/grid-solar/sgeusers/scobleaaro/Project/
+#populationSize=1000
+#numCache=0
+#multiclass ie LGP
+#CACHE=false;
+#Parallel multiclass ie PLGP
+#REG_CACHE=false;
+#regLog=true
+#printbest=false;
+#maxGenerations=400
+##########

@@ -1,0 +1,45 @@
+results /media/sf_Working_share/git/sr-plgp/dataIn/
+log /media/sf_Working_share/git/sr-plgp/dataIn
+ Debug? false | Log? false | printBest? false
+Pop: 1 | Max Gens: 1
+Path: /media/sf_Working_share/git/sr-plgp/dataIn/
+randomThicknessRange :0.01 randomVelocityRange :0.5
+AddSubRange H :0.1 VS :0.5
+divMultRange H :0.5 VS :0.5
+Threshold ? false : 5
+aperture distance : 20
+4089
+Loaded 4090 Frequency points. Beginning evolution.
+RUN: 0
+SEED RANDOM 1.363240391E9
+H : 0.002703190097249126 V_s : 0.3411805201488899
+
+H : 0.007179462979772847 V_s : 0.4003615088100478
+
+evolution time: 0.014
+Model 0 ====================
+model -------
+0.0193 0.2687
+SDISP :: 3.0000 seconds
+RMSE 1.5631228722430768
+H : 0.0193 V_s : 0.2687
+
+best fitness: 1.5631228722430768
+best :1.5631228722430768
+H : 0.0193 V_s : 0.2687
+
+evaluation time: 3.032
+generation 1 time: 3.046 seconds ^v^v^v^v^v^v^v^v^v^v^v^v
+
+No solution found.
+Best program:
+best model : H : 0.0193 V_s : 0.2687
+
+1.5631228722430768
+3.046
+Logging best fitnesses
+Writing run statistics to: /media/sf_Working_share/git/sr-plgp/dataIn/description_site05_20m.dat_accuracy_1_0.csv
+      site05_20m.dat,    factors,  maxLength,     numReg,     maxGen,    totTime,    bestGen,    bstGenT,   trainAcc,   validAcc,    testAcc,    trainSD,     testSD
+
+      site05_20m.dat,          1,          1,         10,          1,   0.000000,    0.000000,    0.000000,    0.000000,    0.000000,    0.000000,    0.000000,   0.000000
+8.6m  @	123.5m/s over 136.5m @  278.7m/s	(20m)

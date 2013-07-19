@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (Web2C 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: progressReport.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: background.aux
+A level-1 auxiliary file: progress.aux
+A level-1 auxiliary file: plans.aux
+A level-1 auxiliary file: summary.aux
+The style file: ieeetr.bst
+Database file #1: sample.bib
+Warning--empty publisher in 1
+Warning--empty publisher in 2
+Warning--empty publisher in 3
+Name 1 in "H. Cox, H. Lai, and K. Bell" has a comma at the end for entry 5
+while executing---line 969 of file ieeetr.bst
+Warning--empty publisher in 5
+Name 1 in "P. Apostolidis, D. Raptakis, and K. Pitilakis" has a comma at the end for entry 6
+while executing---line 969 of file ieeetr.bst
+Warning--empty booktitle in 6
+Warning--empty publisher in 6
+Warning--empty publisher in 7
+Warning--empty publisher in scoble1
+Warning--empty publisher in 10
+Warning--empty publisher in 11
+Name 1 in "J. R. Koza," has a comma at the end for entry 13
+while executing---line 969 of file ieeetr.bst
+Warning--empty publisher in 13
+Warning--empty publisher in poli1
+Warning--empty publisher in 16
+Warning--empty publisher in 17
+Name 2 in "M. Brameier and W. Banzhaf," has a comma at the end for entry 15
+while executing---line 969 of file ieeetr.bst
+Warning--empty publisher in 15
+Warning--empty publisher in 22
+Warning--empty publisher in 23
+Warning--empty publisher in 24
+Name 2 in "J. A. Nelder and R. Mead," has a comma at the end for entry 12
+while executing---line 969 of file ieeetr.bst
+Warning--empty publisher in 12
+Warning--empty publisher in andrus1
+Warning--empty publisher in harik1
+Warning--empty publisher in hansen1
+Warning--empty publisher in hansen2
+Warning--empty publisher in lanzi1
+You've used 23 entries,
+            1876 wiz_defined-function locations,
+            582 strings with 6764 characters,
+and the built_in function-call counts, 4004 in all, are:
+= -- 274
+> -- 156
+< -- 0
++ -- 62
+- -- 39
+* -- 282
+:= -- 589
+add.period$ -- 25
+call.type$ -- 23
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 272
+empty$ -- 568
+format.name$ -- 39
+if$ -- 960
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 24
+newline$ -- 74
+num.names$ -- 23
+pop$ -- 159
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 60
+stack$ -- 0
+substring$ -- 0
+swap$ -- 22
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 24
+while$ -- 23
+width$ -- 25
+write$ -- 188
+(There were 5 error messages)

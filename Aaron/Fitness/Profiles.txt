@@ -1,0 +1,30 @@
+SITE      LAYER					      APERTURE
+1	8.6m  @	123.5m/s over 136.5m @  278.7m/s	(20m)	
+2	9.0m  @	133.5m/s over 163.0m @  273.1m/s	(20m)
+3	16.1m @	164.6m/s				(15m)
+4	17.4m @	146.9m/s				(20m)
+5	19.3m @	268.7m/s				(20m)
+6	19.8m @	184.6m/s				(20m)
+7	12.4m @	309.0m/s over 165.8m @ 2232.2m/s	(15m)  
+7	14.7m @	366.0m/s over 322.0m @  861.7m/s	(30m)	
+8	6.4m  @	111.4m/s				(20m)
+9	2.3m  @	 74.7m/s over 67.1m  @  174.3m/s	(5m)	
+10	4.7m  @	 93.1m/s over 648.0m @  173.5m/s	(10m)	
+11	5.3m  @	 93.4m/s				(20m)
+12	4.7m  @	109.7m/s				(15m)
+13	12.0m @	105.1m/s				(20m)
+14	9.4m  @	128.2m/s				(20m)
+15	11.5m @	132.0m/s				(15m)
+16	10.8m @	129.4m/s				(20m)
+17	7.7m  @	118.0m/s				(20m)
+
+
+CAUTION ... the only value to believe is the velocity in the top layer
+        ... the thickness of the top layer is less certain - don't quote me on it
+        ... the second layer is used only to enable a good fit of the top layer
+        ... don't use any value for the second layer, especially its thickness
+
+The velocity values in the top layer are to rule out liquefaction. They are
+the only thing to believe.
+
+Dick and especially Nick ... note these caveats!!!!!

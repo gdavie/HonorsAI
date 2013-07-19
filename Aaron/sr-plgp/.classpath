@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="HC-PLGP"/>
+	<classpathentry kind="src" path="AI_SPAC"/>
+	<classpathentry kind="src" path="baseSrc"/>
+	<classpathentry kind="src" path="ESP"/>
+	<classpathentry kind="src" path="Clustering"/>
+	<classpathentry kind="src" path="CCPLGP"/>
+	<classpathentry kind="src" path="LGP"/>
+	<classpathentry kind="src" path="BSPLGP"/>
+	<classpathentry kind="src" path="PLGP"/>
+	<classpathentry kind="src" path="Coh"/>
+	<classpathentry kind="src" path="misc"/>
+	<classpathentry kind="src" path="GA_SPAC"/>
+	<classpathentry exported="true" kind="lib" path="/am/rialto/home1/daviegeor/4year/489/Aaron/sr-plgp/lib/ujmp-complete-0.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/am/rialto/home1/daviegeor/4year/489/Aaron/sr-plgp/lib/colt-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/am/rialto/home1/daviegeor/4year/489/Aaron/sr-plgp/lib/Jcpsjar.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/sun-7"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

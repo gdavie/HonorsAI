@@ -1,0 +1,109 @@
+\begin{thebibliography}{10}
+
+\bibitem{1}
+C.~Downey and Z.~Mengjie, ``{Parallel Linear Genetic Programming},'' in {\em
+  Victoria University Wellington}, 2011.
+
+\bibitem{2}
+{W. Stephenson, P. Barker, Z. Bruce and R. Beetham}, ``{Immediate Report on the
+  Use of Microtremors (SPAC Measurements) for Assessing Liquefaction Potential
+  in the Christchurch Area},'' in {\em GNS Science, Tech. Rep.}, 2011.
+
+\bibitem{3}
+K.~Aki, ``Space and time spectra of stationary stochastic waves, with special
+  reference to microtremors,'' in {\em Bull. Earthquake Res. Inst. Univ.
+  Tokyo.}, 1957.
+
+\bibitem{5}
+H.~L. H.~Cox and K.~Bell, ``Spatial correlation for directional sensors in
+  arbitrary noise fields,'' in {\em in Proceedings of the 43rd Asilomar
+  conference on Signals, Systems and Computers.}, 2009.
+
+\bibitem{6}
+D.~R. P.~Apostolidis and K.~Pitilakis, ``The use of micro-tremors for the
+  definition of soil properties and bedrock depth in an urban area,'' 2004.
+
+\bibitem{7}
+{R. Beetham, W. Stephenson, P. Barker, and N. Perrin}, ``{a non-invasive site
+  investigation method for determining site class from microtremor records},''
+  in {\em in Proceedings of the 11th IAEG Congress}, 2010.
+
+\bibitem{scoble1}
+{A. Scoble, W. Brown, and M. Zhang}, ``{Evolutionary Spatial Auto-Correlation
+  for Assessing Earthquake Liquefaction Potential using Parallel Linear Genetic
+  Programming},'' in {\em Victoria University Wellington}, 2013.
+
+\bibitem{10}
+P.~B. W.~Stephenson and R.~Beetham, ``Microtremor based determination of
+  shear-wave velocity of soft soils using the spac method,,'' in {\em GNS
+  Science, Tech. Rep.}, 2011.
+
+\bibitem{11}
+R.~B. Herrmann, ``Computer programs in seismology,'' in {\em Saint Louis
+  University, USE, 2002.}, 2011.
+
+\bibitem{13}
+J.~R. Koza, ``Genetic programming: On the programming of computers by means of
+  natural selection,,'' in {\em Cambridge, Mass.: MIT Press,}, 1992.
+
+\bibitem{poli1}
+W.~B.~L. R.~Poli and N.~F. McPhee, ``A field guide to genetic programming,'' in
+  {\em ISBN 978-1-4092-0073-4}, 2008.
+
+\bibitem{16}
+C.~Downey and M.~Zhang, ``Parallel linear genetic programming,'' in {\em in
+  Proceedings of the 14th European Conference on Genetic Programming}, 2011.
+
+\bibitem{17}
+M.~Z. C.~Downey and J.~Liu, ``Parallel linear genetic programming for
+  multi-class classification,'' in {\em Genetic Programming and Evolvable
+  Machines}, 2012.
+
+\bibitem{15}
+M.~Brameier and W.~Banzhaf, ``Evolving teams of predictors with linear genetic
+  programming,'' in {\em in Genetic Programming and Evolvable Machines.}, 2001.
+
+\bibitem{22}
+M.~Brameier and W.~Banzhaf, ``A comparison of linear genetic programming and
+  neural networks in medical data mining,'' in {\em IEEE Transactions on
+  Evolutionary Computation}, 2001.
+
+\bibitem{23}
+C.~Fogelberg and M.~Zhang, ``Parallel linear genetic programming for
+  multi-class classification,'' in {\em in AI 2005: Advances in Artificial
+  Intelligence}, 2005.
+
+\bibitem{24}
+L.~T. G.~Olague, E.~Romero and B.~Bhanu, ``Multi-class object recognition based
+  on texture linear genetic programming,'' in {\em Applications of Evolutionary
+  Computing}, 2007.
+
+\bibitem{12}
+J.~A. Nelder and R.~Mead, ``A simplex method for functional minimization,'' in
+  {\em The Computer Journal, vol. 7, no. 4, pp. 308-313,}, 1965.
+
+\bibitem{andrus1}
+R.~D. Andrus and K.~H.~I. Stockoe, ``{Liquefaction resistance of soils from
+  shear-wave velocity},'' in {\em Geotechnical and Geoenvironmental
+  Engineering}, 2000.
+
+\bibitem{harik1}
+F.~G.~L. G.~R.~Harik and D.~E. Goldberg, ``{The compact genetic algorithm},''
+  in {\em IEEE Transactions on Evolutionary Computation}, 1999.
+
+\bibitem{hansen1}
+N.~Hansen and S.~Kern, ``{Evaluating the CMA Evolution Strategy on Multimodal
+  Test Functions},'' in {\em Swiss Federal Institute of Technology (ETH)
+  Zurich, Switzerland}, 2004.
+
+\bibitem{hansen2}
+N.~Hansen, ``{The CMA Evolution Strategy: A Comparing Review},'' in {\em Swiss
+  Federal Institute of Technology (ETH) Zurich, Switzerland}, 2006.
+
+\bibitem{lanzi1}
+P.~Lanzi and R.~Riolo, {\em {A Roadmap to the Last Decade of Learning
+  Classifier System Research (From 1989 to 1999)}}.
+\newblock {Lecture Notes in Computer Science}, 2000.
+\newblock ISBN 978-3-540-67729-1.
+
+\end{thebibliography}

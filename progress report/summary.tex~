@@ -1,0 +1,17 @@
+ 
+\chapter{Summary}\label{C:sum}
+
+\section{Achievements to Date}
+
+There have been a number of achievements to date. All of the background material has been covered and researched. This included research on existing software libraries and evaluating which ones are most likely to fit the problem. The best solutions that are currently available are the George Mason University's GP package named, ECJ and Carlton Downey's LGP library if this can be obtained. 
+
+
+Aaron Scoble's existing work has been handed over and modified to work on a slightly different architecture. Benchmark data from this is being gathered and is near completion with a wait on a number of grid jobs awaiting that are still executing. 
+
+
+\section{Major Hurdles Remaining}
+There is a significant amount of work left within the project with the next major hurdle being the implementation of the GP. This will be closely followed by the implementation of the LGP. Once these are complete experiments will be run to determine each of the algorithms most efficient operating parameters. Data will then be collected with a heavy reliance on the ECS grid system. Once all this data is collected a statistical evaluation of the results will be written into a report. This report will become the results and discussion sections of the final write up which will be completed by the end of the year. 
+
+
+\section{Contribution Goals}
+The contributions of the project will be an implementation of both a GP and LGP used to determine the liquefaction potential of horizontal 2 layered stratigraphic records obtained during a site investigation using the SPAC system. These two systems will also be used in a study also featuring the PLGP to determine which of the three techniques is the most successful at solving the problem of liquefaction potential detection.

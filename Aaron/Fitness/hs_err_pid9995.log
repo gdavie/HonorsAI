@@ -1,0 +1,96 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007fcc271d64f7, pid=9995, tid=140515311621888
+#
+# JRE version: 7.0_09-b30
+# Java VM: OpenJDK 64-Bit Server VM (23.2-b09 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# C  [libCPS.so+0xe4f7]  insert_+0x0
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please include
+# instructions on how to reproduce the bug and visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-7/
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fcc3c009000):  JavaThread "main" [_thread_in_native, id=9996, stack(0x00007fcc452c1000,0x00007fcc453c2000)]
+
+siginfo:si_signo=SIGBUS: si_errno=0, si_code=2 (BUS_ADRERR), si_addr=0x00007fcc271d64f7
+
+Registers:
+RAX=0x0000000000000000, RBX=0x00007fcc2742cac0, RCX=0x00007fcc273da2c0, RDX=0x00007fcc453c07e0
+RSP=0x00007fcc453c07a8, RBP=0x40018487c0000000, RSI=0x00007fcc453c07d8, RDI=0x00007fcc453c07f8
+R8 =0x00000000000000c9, R9 =0x0000000000000191, R10=0x00007fcc453c0540, R11=0x00007fcc271d64f7
+R12=0x0000000000000000, R13=0x00000007738a9088, R14=0x00007fcc453c08f8, R15=0x00007fcc3c009000
+RIP=0x00007fcc271d64f7, EFLAGS=0x0000000000010202, CSGSFS=0x0000000000000033, ERR=0x0000000000000014
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007fcc453c07a8)
+0x00007fcc453c07a8:   00007fcc271d79ee 00007fcc453c0860
+0x00007fcc453c07b8:   0000000000000000 00000007738a9088
+0x00007fcc453c07c8:   00007fcc451d3235 0000000000000000
+0x00007fcc453c07d8:   fff8000000000000 0000000000000000
+0x00007fcc453c07e8:   0000000000000005 00007fcc453bf490
+0x00007fcc453c07f8:   0000000000000000 00000007738a9088
+0x00007fcc453c0808:   00007fcc453c0860 0000000000000000
+0x00007fcc453c0818:   00007fcc271ca30d 00007fcc453c08e8
+0x00007fcc453c0828:   00007fcc453c08f0 00007fcc453c08f8
+0x00007fcc453c0838:   00007fcc3c0091d8 00000007738a9088
+0x00007fcc453c0848:   00007fcc3c15cc40 00007fcc3c151b20
+0x00007fcc453c0858:   0000000500000ffa 00007fcc453c08c8
+0x00007fcc453c0868:   00007fcc39011f90 00000000fffffffe
+0x00007fcc453c0878:   00007fcc43ff6b7f 0000100932a4c8e5
+0x00007fcc453c0888:   00007fcc453c0888 00000007738a9088
+0x00007fcc453c0898:   00007fcc453c08f8 00000007738a99e8
+0x00007fcc453c08a8:   0000000000000000 00000007738a9088
+0x00007fcc453c08b8:   0000000000000000 00007fcc453c08e8
+0x00007fcc453c08c8:   00007fcc453c0940 00007fcc39006158
+0x00007fcc453c08d8:   0000000000000000 00007fcc3900edd8
+0x00007fcc453c08e8:   00000007d49c1680 00000007d49b96a0
+0x00007fcc453c08f8:   00000007d49b9690 00007fcc453c0900
+0x00007fcc453c0908:   00000007738a9543 00007fcc453c09e8
+0x00007fcc453c0918:   00000007738a99e8 00000007738d9a78
+0x00007fcc453c0928:   00000007738a9618 00007fcc453c08e8
+0x00007fcc453c0938:   00007fcc453c09e8 00007fcc453c0a50
+0x00007fcc453c0948:   00007fcc390004f7 0000000000000000
+0x00007fcc453c0958:   0000000000000000 0000000000000000
+0x00007fcc453c0968:   0000000000000000 0000000000000000
+0x00007fcc453c0978:   0000000000000000 0000000000000000
+0x00007fcc453c0988:   00000007d4fafa00 0000000000000ffa
+0x00007fcc453c0998:   0000000000000000 0000100932a4c8e5 
+
+Instructions: (pc=0x00007fcc271d64f7)
+0x00007fcc271d64d7:   
+[error occurred during error reporting (printing registers, top of stack, instructions near pc), id 0x7]
+
+Register to memory mapping:
+
+RAX=0x0000000000000000 is an unknown value
+RBX=0x00007fcc2742cac0: model_+0 in /media/sf_Working_share/workspace/Fitness/lib/libCPS.so at 0x00007fcc271c8000
+RCX=0x00007fcc273da2c0: azisomod_+0 in /media/sf_Working_share/workspace/Fitness/lib/libCPS.so at 0x00007fcc271c8000
+RDX=0x00007fcc453c07e0 is pointing into the stack for thread: 0x00007fcc3c009000
+RSP=0x00007fcc453c07a8 is pointing into the stack for thread: 0x00007fcc3c009000
+RBP=0x40018487c0000000 is an unknown value
+RSI=0x00007fcc453c07d8 is pointing into the stack for thread: 0x00007fcc3c009000
+RDI=0x00007fcc453c07f8 is pointing into the stack for thread: 0x00007fcc3c009000
+R8 =0x00000000000000c9 is an unknown value
+R9 =0x0000000000000191 is an unknown value
+R10=0x00007fcc453c0540 is pointing into the stack for thread: 0x00007fcc3c009000
+R11=0x00007fcc271d64f7: insert_+0 in /media/sf_Working_share/workspace/Fitness/lib/libCPS.so at 0x00007fcc271c8000
+R12=0x0000000000000000 is an unknown value
+R13=0x00000007738a9088 is an oop
+{method} 
+ - klass: {other class}
+R14=0x00007fcc453c08f8 is pointing into the stack for thread: 0x00007fcc3c009000
+R15=0x00007fcc3c009000 is a thread
+
+
+Stack: [0x00007fcc452c1000,0x00007fcc453c2000],  sp=0x00007fcc453c07a8,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libCPS.so+0xe4f7]  insert_+0x0

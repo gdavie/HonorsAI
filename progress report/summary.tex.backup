@@ -1,0 +1,37 @@
+ 
+\chapter{Summary}\label{C:sum}
+
+\section{Achievements to Date}
+
+There have been a number of achievements to date. All of the background material has been covered and researched. This included research on existing software libraries and evaluating which ones are most likely to fit the problem. The best solutions that are currently availalbe are the George Mason University's GP package named, ECJ and Cartlon Downey's LGP library if this can be obtained. 
+
+
+The existing body of work has been handed over and modified to work on a slightly different architecture. Benchmark data from this is being gathed and is near completion with a wait on a number of grid jobs awaiting that are still executing. 
+
+ \begin{itemize}
+  \item Geological Background Research.
+  \item Domain Research and Reading.
+  \item Implementation of Existing Work.
+  \item PLGP Benchmark Data Acquisition.
+ \end{itemize}
+
+
+\section{Major Hurdles Remaining}
+
+ \begin{itemize}
+  \item Implementation of a GP.
+  \item Implementation of a LGP.
+  \item Data acquisition of both the GP and LGP.
+  \item Statistical evaluation of results.
+  \item Empirical study of the three AI techniques with respect to the domain. 
+  \item Final report.
+ \end{itemize}
+
+
+\section{Contribution Goals}
+
+ \begin{itemize}
+  \item A GP implementation to determine the liquefaction potential of individual horizontal 2 layered sites.
+  \item A LGP implementation to determine the liquefaction potential of individual horizontal 2 layered sites.
+  \item A study of the three techniques, GP, LGP and PLGP determining which solves is the most successful at solving the given problem.
+ \end{itemize}
